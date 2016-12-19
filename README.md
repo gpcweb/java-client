@@ -7,8 +7,8 @@ git clone git@github.com:gpcweb/java-webservice.git
 Luego debes abrirlo con Spring STS y ejecutar como "Run as -> Spring Boot App"
 
 Este proyecto cuenta con un pequeño formulario que te permite guardar un nuevo recurso en un webservice (Ver java-webservice).
-Para ello solo debes ir a la siguiente url:
-```localhost:8090/users/new``` 
+Para ello solo debes ir a la siguiente url: ```localhost:8090/users/new```
+
 
 * El webservice cuenta con validaciones, por lo tanto: 
 
