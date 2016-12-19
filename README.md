@@ -1,8 +1,6 @@
 # java-client
 
-Para revisar este proyecto debes descargarlo con:
-
-git clone git@github.com:gpcweb/java-webservice.git
+Para revisar este proyecto debes descargarlo con: ```git clone git@github.com:gpcweb/java-webservice.git```
 
 Luego debes abrirlo con Spring STS y ejecutar como "Run as -> Spring Boot App"
 
