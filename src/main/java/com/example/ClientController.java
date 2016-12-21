@@ -46,7 +46,7 @@ public class ClientController {
 		try {
 			ResponseEntity entity = restTemplate.postForEntity(url, user, ResponseEntity.class);
 			status  = entity.getStatusCode().toString();
-			message = "";
+			message = entity.getHeaders().getLocation().toString();
 		} catch (HttpClientErrorException e) { 
 			status  = e.getStatusCode().toString();
 			message = e.getMessage();
